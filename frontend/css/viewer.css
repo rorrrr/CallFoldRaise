@@ -1,0 +1,28 @@
+
+h1 {
+  color: blue;
+  max-width: 15%;
+  display: block;
+  margin:auto;
+  text-align: center;
+
+}
+
+img { 
+  max-width: 15%;
+  max-height: 15%;
+  margin: auto;
+  margin-top: 2%;
+  display: block;
+ }
+
+ button {
+  display:block;
+  margin:auto;
+ }
+
+ #mainBox {
+  display:block;
+  margin:auto;
+  width: 20%;
+ }
