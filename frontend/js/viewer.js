@@ -9,5 +9,37 @@ or in the "license" file accompanying this file. This file is distributed on an 
 */
 
 
+var callButton = document.getElementById('call')
+var foldButton = document.getElementById('fold')
+var resetButton = document.getElementById('reset')
+
+var callButtonPresses = 0
+var foldButtonPresses = 0
+
+callButton.onclick = function addOneToCall(){
+  callButtonPresses += 1
+  document.getElementById('callCount').innerHTML = callButtonPresses
+}
+
+foldButton.onclick = function addOneToFold(){
+  foldButtonPresses += 1
+  document.getElementById('foldCount').innerHTML = foldButtonPresses
+}
+
+resetButton.onclick = function resetCounter(){
+  document.getElementById('callCount').innerHTML = 0
+  document.getElementById('foldCount').innerHTML = 0
+  foldButtonPresses = 0
+  callButtonPresses = 0
+}
+
+
+
+
+
+
+
+
+
 
 
